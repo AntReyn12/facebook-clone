@@ -265,7 +265,7 @@ header {
 }
 
 .sidenav__line {
-  height: 3px;
+  height: 2px;
   background: var(--button-link);
   margin-bottom: 15px;
   display: block;
