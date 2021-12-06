@@ -202,7 +202,11 @@ header {
 }
 
 .sidenav {
-  width: 25%;
+  width: 300px;
+  position: fixed;
+  overflow: scroll;
+  top: 80px;
+  bottom: 0;
 }
 .sidenav__item {
   display: flex;
@@ -285,10 +289,10 @@ header {
 /* FEED START */
 .feed {
   width: 50%;
-  height: 200px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-left: 325px;
 }
 
 /* STORIES START */
@@ -583,7 +587,9 @@ header {
   position: fixed;
   right: 0;
   top: 80px;
+  bottom: 0;
   width: 25%;
+  overflow: scroll;
 }
 .contact-nav .hline {
   margin: 0 10px;
@@ -628,8 +634,8 @@ header {
   justify-content: center;
   font-size: 1.3rem;
   position: absolute;
-  right: 10px;
-  bottom: 0;
+  right: 20px;
+  bottom: 20px;
   box-shadow: var(--shadow-color);
 }
 .contact-nav__green-btn {
