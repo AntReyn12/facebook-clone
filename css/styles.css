@@ -625,6 +625,7 @@ header {
 .contact-nav__item span {
   padding: 0 10px;
 }
+
 .edit-button .fa-edit {
   height: 50px;
   width: 50px;
@@ -634,10 +635,10 @@ header {
   align-items: center;
   justify-content: center;
   font-size: 1.3rem;
-  position: fixed;
   right: 20px;
   bottom: 20px;
   box-shadow: var(--shadow-color);
+  position: fixed;
 }
 .contact-nav__green-btn {
   height: 10px;
