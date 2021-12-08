@@ -649,6 +649,9 @@ header {
   padding: 0 10px;
 }
 
+.edit-button {
+  z-index: 9;
+}
 .edit-button .fa-edit {
   height: 50px;
   width: 50px;
@@ -662,6 +665,7 @@ header {
   bottom: 20px;
   box-shadow: var(--shadow-color);
   position: fixed;
+  cursor: pointer;
 }
 .contact-nav__green-btn {
   height: 10px;
